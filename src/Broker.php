@@ -271,6 +271,19 @@ class Broker
         return $this->userinfo;
     }
 
+
+    /**
+     * Set user information.
+     *
+     * @return object|null
+     */
+    public function setUserInfo($userInfo)
+    {
+        $this->userinfo = $userInfo;
+        return $this->userinfo;
+    }
+
+
     /**
      * Magic method to do arbitrary request
      *
